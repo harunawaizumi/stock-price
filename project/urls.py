@@ -23,6 +23,5 @@ urlpatterns = [
     path('test', ClubChartView.as_view(), name="home"),
     re_path(r'^$',    ClubChartView.index,    name='index'),
     re_path(r'^api/$', ClubChartView.get_data, name='api'),
-    re_path(r'^api2/$', ClubChartView.get_data2, name='api2'),
-    re_path(r'^api3/$', ClubChartView.get_data3, name='api3')
+    re_path(r'^api_BTC/$', ClubChartView.get_data_BTC, name='api_BTC'),
 ]

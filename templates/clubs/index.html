@@ -6,7 +6,7 @@
 {% block scripts %}
 <script src="{% static 'js/echarts.min.js' %}"></script>
 <script src="{% static 'js/echart-main.js' %}"></script>
-<script src="{% static 'js/echart-main2.js' %}"></script>
+<script src="{% static 'js/echart-main_BTC.js' %}"></script>
 <script src="{% static 'js/echart-main3.js' %}"></script>
 
 {% endblock scripts %}
@@ -17,7 +17,6 @@
    {{i.first_year}}
 		{% endfor %} -->
         <div id="echart_main" style="width: 1000px;height:500px;"></div>
-        <div id="echart_main2" style="width: 1000px;height:500px;"></div>
-        <div id="echart_main3" style="width: 1000px;height:500px;"></div>
+        <div id="echart_main_BTC" style="width: 1000px;height:500px;"></div>
     </div>
 {% endblock content %}

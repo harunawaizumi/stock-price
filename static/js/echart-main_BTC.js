@@ -1,4 +1,4 @@
-var endpoint = 'api2/'
+var endpoint = 'api_BTC/'
 
 $.ajax({
     method: "GET",
@@ -8,7 +8,7 @@ $.ajax({
 
         var rawData  = data.dataSet;
         var rawTitle = data.titleSet;
-        var myChart  = echarts.init(document.getElementById('echart_main2'));
+        var myChart  = echarts.init(document.getElementById('echart_main_BTC'));
 
         function calculateMA(dayCount, data) {
             var result = [];
